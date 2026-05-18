@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ES9822QPRO
+D Analog to Digital Converters - ADC Sabre stereo reference PRO ADC5 mm x 5mm, 40 pin QFN
+K
+F https://www.esstech.com/wp-content/uploads/2022/09/ES9822PRO_DS_v0.3.pdf
+$ENDCMP
+#
+#End Doc Library

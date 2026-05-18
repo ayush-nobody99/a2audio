@@ -1,0 +1,16 @@
+.ES9822QPRO :1 ;Analog to Digital Converters - ADC Sabre stereo reference PRO ADC5 mm x 5mm, 40 pin QFN
+QFN40P500X500X80-41N-D
+*STM IC
+*NGS
+*PLB 1="GPIO10" 2="GPIO11" 3="MODE" 4="ACLK" 5="AVCC" 6="AGND" 7="XOUT" 8="XIN" 9="VREF L" 10="AVCC L" 11="AGND L" 12="IN_P1" 13="IN M1" 14="NC_1" 15="NC_2" 16="NC_3" 17="NC_4" 18="IN M2" 19="IN P2" 20="AGND R" 21="AVCC_R" 22="VREF R" 23="CHIP EN" 24="GPIO9" 25="MOSI/SDA" 26="SCLK/SCL" 27="SS/ADDR1" 28="MISO/ADDR2" 29="DVDD" 30="AVDD" 31="DGND_1" 32="GPIO8" 33="GPIO7" 34="GPIO6" 35="GPIO5" 36="GPIO4" 37="GPIO3" 38="GPIO2" 39="GPIO1" 40="DGND_2" 41="DGND_3"
+*MXP 41
+*DFN ES9822QPRO
+~!Mouser Part Number (460-ES9822QPRO)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ESS-Technology/ES9822QPRO?qs=A6eO%252BMLsxmRg8Ilt0hzh%2Fg%3D%3D)
+~!Manufacturer_Name (ESS Technology)
+~!Manufacturer_Part_Number (ES9822QPRO)
+~!Link Datasheet (https://www.esstech.com/wp-content/uploads/2022/09/ES9822PRO_DS_v0.3.pdf)
+~!Height (0.8mm)
+~!3D_Model (ES9822QPRO)
+ES9822QPRO
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 30.1!U 29.1!U 28.1!U 27.1!U 26.1!U 25.1!U 24.1!U 23.1!U 22.1!U 21.1!U 41.1!U 40.1!U 39.1!U 38.1!U 37.1!U 36.1!U 35.1!U 34.1!U 33.1!U 32.1!U 31.1!U 
