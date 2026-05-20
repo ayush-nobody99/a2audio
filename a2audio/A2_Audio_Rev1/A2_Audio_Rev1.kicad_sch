@@ -13262,7 +13262,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CM5108000:MODULE_CM5108000"
+		(property "Footprint" "custom:MODULE_CM5108000"
 			(at 494.03 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -15214,7 +15214,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CM5108000:MODULE_CM5108000"
+		(property "Footprint" "custom:MODULE_CM5108000"
 			(at 347.98 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -16124,7 +16124,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LTC2954ITS8-1_TRPBF:TSOT-23_TS8"
+		(property "Footprint" "custom:TSOT-23_TS8"
 			(at 247.65 242.57 0)
 			(hide yes)
 			(show_name no)

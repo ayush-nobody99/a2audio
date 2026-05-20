@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=LT6711A
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=65
+Version=1.1
+Released=2023-08-08 13:23:48
+Downloaded=2026-05-20 14:14:52
+3D=Y

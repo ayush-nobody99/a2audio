@@ -5322,7 +5322,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS7A2033PDBVR:SOT95P280X145-5N"
+		(property "Footprint" "custom:SOT95P280X145-5N"
 			(at 185.42 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -6059,7 +6059,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN_CS43198_CIR"
+		(property "Footprint" "custom:QFN_CS43198_CIR"
 			(at 185.42 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -6258,7 +6258,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OPA1622IDRCR:IC_OPA1622IDRCR"
+		(property "Footprint" "custom:IC_OPA1622IDRCR"
 			(at 392.43 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -6523,7 +6523,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS7A2033PDBVR:SOT95P280X145-5N"
+		(property "Footprint" "custom:SOT95P280X145-5N"
 			(at 246.38 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -6864,7 +6864,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN_CS43198_CIR"
+		(property "Footprint" "custom:QFN_CS43198_CIR"
 			(at 41.91 44.45 0)
 			(hide yes)
 			(show_name no)

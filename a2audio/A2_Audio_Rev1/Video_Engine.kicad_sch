@@ -4581,7 +4581,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:QFN40P750X750X80-65N-D"
 			(at 124.46 74.93 0)
 			(hide yes)
 			(show_name no)

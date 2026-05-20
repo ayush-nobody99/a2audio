@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LT6711A'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Analog Devices", "LT6711A" (!) = "", "QFN40P750X750X80-65N-D", "Quad Flat No-Lead", "", "", "", "", "LONTIUM SEMICONDUCTOR CORPORATION", "http://www.usbtech.net/upload/portal/20210129/d73e5232d142fd140d2b9d6b06aa9998.pdf", "0.8 mm"
+END_PART
+
+END.

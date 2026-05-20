@@ -4149,7 +4149,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TS5A3159DBVR:SOT95P280X145-6N"
+		(property "Footprint" "custom:SOT95P280X145-6N"
 			(at 382.27 87.63 0)
 			(hide yes)
 			(show_name no)

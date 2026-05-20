@@ -21965,7 +21965,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS65987DDHRSHR:IC_TPS65987DDHRSHR"
+		(property "Footprint" "custom:IC_TPS65987DDHRSHR"
 			(at 55.88 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -22891,7 +22891,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX17055ETB_T:SON40P200X250X80-11N"
+		(property "Footprint" "custom:SON40P200X250X80-11N"
 			(at 297.18 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -23760,7 +23760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BQ25895RTWR:QFN50P400X400X80-25N"
+		(property "Footprint" "custom:QFN50P400X400X80-25N"
 			(at 91.44 294.64 0)
 			(hide yes)
 			(show_name no)
@@ -25430,7 +25430,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RNQ0040A"
+		(property "Footprint" "custom:RNQ0040A"
 			(at 186.69 111.76 0)
 			(hide yes)
 			(show_name no)
