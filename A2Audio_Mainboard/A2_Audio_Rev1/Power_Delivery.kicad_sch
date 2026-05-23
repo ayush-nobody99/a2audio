@@ -5,6 +5,730 @@
 	(uuid "6607c490-bcea-42e5-a7ba-2e85f2951081")
 	(paper "A2")
 	(lib_symbols
+		(symbol "12401610E4_2A:12401610E4_2A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -12.7 16.002 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "12401610E4_2A"
+				(at -12.7 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "12401610E4_2A:AMPHENOL_12401610E4_2A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "USB3.2 GEN2, Type C, Top mount, CH 1.58mm, Dual Row SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Amphenol ICC (Commercial Products)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "3.43mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/12401610E4%232A/Amphenol/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/12401610E4%232A/Amphenol/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "12401610E4#2A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Amphenol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "12401610E4_2A_0_0"
+				(rectangle
+					(start -12.7 -17.78)
+					(end 12.7 15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -17.78 -10.16 0)
+					(length 5.08)
+					(name "GND_A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 10.16 0)
+					(length 5.08)
+					(name "TX1+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 7.62 0)
+					(length 5.08)
+					(name "TX1-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 12.7 0)
+					(length 5.08)
+					(name "VBUS_A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "D1+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "D1-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 12.7 0)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS_A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -5.08 0)
+					(length 5.08)
+					(name "RX2-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -7.62 0)
+					(length 5.08)
+					(name "RX2+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 -10.16 0)
+					(length 5.08)
+					(hide yes)
+					(name "GND_A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -10.16 180)
+					(length 5.08)
+					(name "GND_B"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "TX2+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "TX2-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 12.7 180)
+					(length 5.08)
+					(name "VBUS_B"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -2.54 180)
+					(length 5.08)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "D2+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "D2-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 12.7 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS_B"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 7.62 180)
+					(length 5.08)
+					(name "RX1-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 10.16 180)
+					(length 5.08)
+					(name "RX1+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -10.16 180)
+					(length 5.08)
+					(hide yes)
+					(name "GND_B"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 -15.24 0)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 -15.24 0)
+					(length 5.08)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 -15.24 0)
+					(length 5.08)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 -15.24 0)
+					(length 5.08)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "BQ25895RTWR:BQ25895RTWR"
 			(pin_names
 				(offset 1.016)
@@ -14050,6 +14774,16 @@
 		)
 		(uuid "ffc05425-f605-4a15-aaea-a5ea06e491f0")
 	)
+	(label "RX1-1"
+		(at 332.74 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0760efc6-a9cd-4ba0-b31c-17e88aced0d0")
+	)
 	(label "+6V_DIRTY"
 		(at 500.38 49.53 0)
 		(effects
@@ -14060,6 +14794,16 @@
 		)
 		(uuid "0c607153-33d7-4429-b185-adfcdf4f4d4b")
 	)
+	(label "CC21"
+		(at 435.61 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d5c5f13-dee3-46c7-9a95-a9b3da190a22")
+	)
 	(label "TYPEC_RX1_P"
 		(at 227.33 104.14 0)
 		(effects
@@ -14069,6 +14813,16 @@
 			(justify left bottom)
 		)
 		(uuid "13a7c2f6-c46f-4997-bfdc-c2ca73ec3e33")
+	)
+	(label "D+1"
+		(at 332.74 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13f1d774-c716-4a15-ad42-8e5f42d05437")
 	)
 	(label "TYPEC_TX2_N"
 		(at 227.33 83.82 0)
@@ -14110,6 +14864,16 @@
 		)
 		(uuid "202a5d31-b1ec-4e7f-8522-e96e84901948")
 	)
+	(label "CC11"
+		(at 332.74 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2662656a-b1fa-4956-a1d0-923e7ce6fd54")
+	)
 	(label "VBUS_RAW"
 		(at 334.01 27.94 0)
 		(effects
@@ -14139,6 +14903,16 @@
 			(justify left bottom)
 		)
 		(uuid "2b606cbc-4f11-4b76-9e71-3ea95813e438")
+	)
+	(label "D-1"
+		(at 332.74 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b9523b2-2910-44b9-a151-431b4127ed56")
 	)
 	(label "TYPEC_RX2_N"
 		(at 345.44 68.58 0)
@@ -14269,6 +15043,16 @@
 			(justify left bottom)
 		)
 		(uuid "484cdb1a-bd15-435d-afa5-e2136342d530")
+	)
+	(label "CC21"
+		(at 332.74 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4905ffa2-8f61-44e2-9c07-2c8ba2793f20")
 	)
 	(label "-6V_DIRTY"
 		(at 505.46 67.31 0)
@@ -14410,6 +15194,26 @@
 		)
 		(uuid "84f0a6cb-6535-446e-a6e1-1fe3569d0b99")
 	)
+	(label "RX1+1"
+		(at 332.74 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88937680-0885-49a7-8780-732a9a67ee3c")
+	)
+	(label "VBUS1"
+		(at 332.74 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c49a9cc-f130-4f91-bf6e-d50f33e270a0")
+	)
 	(label "-6V_DIRTY"
 		(at 457.2 189.23 180)
 		(effects
@@ -14439,6 +15243,26 @@
 			(justify left bottom)
 		)
 		(uuid "9a755eb7-3ccf-404d-a653-327e3d8eef02")
+	)
+	(label "VBUS1"
+		(at 435.61 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a34c9189-5145-4a55-ad45-cfa516e99b7f")
+	)
+	(label "CC11"
+		(at 400.05 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a463ae7b-e479-47c4-9f89-1c66aae25e88")
 	)
 	(label "TYPEC_TX1_P"
 		(at 227.33 91.44 0)
@@ -14570,6 +15394,16 @@
 		)
 		(uuid "d7394bfa-a323-45d6-8f4e-6911e38c34f5")
 	)
+	(label "D-1"
+		(at 332.74 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "daeadaec-0df3-4a4e-a7d9-87cf8cd45921")
+	)
 	(label "+3V3_SYS"
 		(at 91.44 96.52 0)
 		(effects
@@ -14589,6 +15423,16 @@
 			(justify left bottom)
 		)
 		(uuid "e53e0af9-fe0c-4434-a689-0656ba1c5046")
+	)
+	(label "VBUS1"
+		(at 400.05 26.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e92c6552-77f0-4f91-a49f-58d64712100d")
 	)
 	(label "TYPEC_RX1_N"
 		(at 345.44 53.34 0)
@@ -14669,6 +15513,16 @@
 			(justify left bottom)
 		)
 		(uuid "f98f0524-e801-49df-817c-090998d7d1e5")
+	)
+	(label "D+1"
+		(at 332.74 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc619004-6650-4ca4-8f0f-15e5706804f8")
 	)
 	(hierarchical_label "CM5_USB3_TX_P"
 		(shape output)
@@ -17296,6 +18150,298 @@
 			(project "A2_Audio_Rev1"
 				(path "/6bc02254-56bf-4f9a-8c1a-77c700c92092/a5c5631b-f806-45d1-93d3-3051d82accd7"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "12401610E4_2A:12401610E4_2A")
+		(at 417.83 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28d1cacb-9811-4edb-bbcd-9f3f2786a484")
+		(property "Reference" "J4"
+			(at 417.83 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12401610E4_2A"
+			(at 417.83 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:AMPHENOL_12401610E4_2A"
+			(at 417.83 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 417.83 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB3.2 GEN2, Type C, Top mount, CH 1.58mm, Dual Row SMT"
+			(at 417.83 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Amphenol ICC (Commercial Products)"
+			(at 417.83 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.43mm"
+			(at 417.83 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 417.83 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 417.83 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/12401610E4%232A/Amphenol/view-part/?ref=eda"
+			(at 417.83 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 417.83 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "C"
+			(at 417.83 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/12401610E4%232A/Amphenol/view-part/?ref=snap"
+			(at 417.83 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "12401610E4#2A"
+			(at 417.83 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 417.83 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Amphenol"
+			(at 417.83 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "A9"
+			(uuid "62b74867-7e95-4181-9540-58b67f6dbccb")
+		)
+		(pin "A3"
+			(uuid "4e015afe-0b7d-4c56-97c4-9ba3f9438b4a")
+		)
+		(pin "A8"
+			(uuid "38c25d19-dc37-4c64-9533-5cb2682dfa4b")
+		)
+		(pin "B9"
+			(uuid "21ba4b63-5e68-47e6-b137-ac4b01f479ec")
+		)
+		(pin "A4"
+			(uuid "e6e7349c-17a5-42ad-8839-92a6a14f53cd")
+		)
+		(pin "A10"
+			(uuid "7bb75934-5263-4090-b6be-f19edcbf7207")
+		)
+		(pin "B3"
+			(uuid "d65b0174-050a-4930-888e-33828147cef4")
+		)
+		(pin "SH3"
+			(uuid "dd64ab5d-7c22-4601-904d-97a7ad52bb01")
+		)
+		(pin "A7"
+			(uuid "717799e4-c843-47be-bddc-d80e0e59255c")
+		)
+		(pin "B5"
+			(uuid "fc5e961f-b8bc-4959-9fc9-cb716efa63f9")
+		)
+		(pin "A6"
+			(uuid "83a555ad-fcae-4fcf-a10a-5126662cd223")
+		)
+		(pin "A1"
+			(uuid "61e0184e-3987-4e93-80a2-f628bdaca49a")
+		)
+		(pin "B2"
+			(uuid "5f7c3fe5-2b88-4663-b4e7-63005a5db978")
+		)
+		(pin "B12"
+			(uuid "18caf5cd-c28c-4486-b258-51f5d222fde1")
+		)
+		(pin "B1"
+			(uuid "3d18182a-b916-4f8d-b199-7a4ab03bda16")
+		)
+		(pin "A12"
+			(uuid "35449345-55ec-44f4-9d4c-a051ff4bf1d5")
+		)
+		(pin "B4"
+			(uuid "2b685694-f5d3-44aa-b9a3-17e44ccc32f7")
+		)
+		(pin "B6"
+			(uuid "92365175-af86-49ba-99bc-fd1bbd3629ec")
+		)
+		(pin "B8"
+			(uuid "e325b1e9-2cdc-42ab-a59a-d6dfc50a8131")
+		)
+		(pin "A5"
+			(uuid "fcb6e83b-8fed-49b5-8060-2e82ed199347")
+		)
+		(pin "B7"
+			(uuid "4436b8f1-0be0-4d97-8761-02e5e3231622")
+		)
+		(pin "A2"
+			(uuid "a0090598-6ea9-436b-87f0-f3a773ad7961")
+		)
+		(pin "SH1"
+			(uuid "5ad72f80-111f-441e-b450-39ca98cdf8a7")
+		)
+		(pin "SH2"
+			(uuid "3e6954e9-6910-4893-854b-2939d7c113e4")
+		)
+		(pin "A11"
+			(uuid "43674a63-b47d-4f2e-8812-a32741861bdf")
+		)
+		(pin "B10"
+			(uuid "d3ba6494-1e5b-4990-9c7c-2b93379e4d12")
+		)
+		(pin "B11"
+			(uuid "286ee19e-5b75-4c2c-a608-777d887fb614")
+		)
+		(pin "SH4"
+			(uuid "5f62b7ae-f4c4-404a-840b-1a60a5820ba7")
+		)
+		(instances
+			(project "A2_Audio_Rev1"
+				(path "/6bc02254-56bf-4f9a-8c1a-77c700c92092/a5c5631b-f806-45d1-93d3-3051d82accd7"
+					(reference "J4")
 					(unit 1)
 				)
 			)
