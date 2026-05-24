@@ -2755,6 +2755,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 100.33) (xy 95.25 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3210580e-c21a-4be1-9d34-6089d43b860e")
+	)
+	(wire
+		(pts
 			(xy 153.67 100.33) (xy 185.42 100.33)
 		)
 		(stroke
@@ -3493,7 +3503,7 @@
 	)
 	(hierarchical_label "DP_HPD"
 		(shape input)
-		(at 95.25 100.33 180)
+		(at 91.44 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)

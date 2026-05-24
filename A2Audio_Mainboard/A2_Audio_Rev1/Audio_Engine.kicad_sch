@@ -4293,16 +4293,6 @@
 		)
 		(uuid "fbe28247-12bf-4c6b-b08f-2878357d4dbe")
 	)
-	(wire
-		(pts
-			(xy 361.95 138.43) (xy 361.95 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff7d4f4c-f5a4-4087-aafc-f997944b2b0d")
-	)
 	(label "1V8_DIG"
 		(at 172.72 52.07 0)
 		(effects
@@ -4324,7 +4314,7 @@
 		(uuid "113e4acf-4774-4cac-8de1-be08e983733e")
 	)
 	(label "3V3_ANA"
-		(at 271.78 76.2 0)
+		(at 284.48 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4334,7 +4324,7 @@
 		(uuid "2475e98b-e40e-477f-89e2-0061cd621b68")
 	)
 	(label "AUDIO_OUT_L"
-		(at 359.41 125.73 0)
+		(at 356.87 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4354,7 +4344,7 @@
 		(uuid "677c03ba-0dd8-455e-a593-1a87eb91aad0")
 	)
 	(label "AUDIO_OUT_R"
-		(at 359.41 133.35 0)
+		(at 356.87 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4394,7 +4384,7 @@
 		(uuid "80679913-c665-4ae6-a993-9702ac9f8471")
 	)
 	(label "3V3_ANA"
-		(at 119.38 95.25 0)
+		(at 130.81 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4404,7 +4394,7 @@
 		(uuid "94d28517-c0f0-4c6e-ac55-1ec0e98914cf")
 	)
 	(label "3V3_ANA"
-		(at 364.49 138.43 0)
+		(at 361.95 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4424,7 +4414,7 @@
 		(uuid "baaef5db-2c37-43eb-8cef-a277fe7163a4")
 	)
 	(label "1V8_DIG"
-		(at 111.76 77.47 0)
+		(at 124.46 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
