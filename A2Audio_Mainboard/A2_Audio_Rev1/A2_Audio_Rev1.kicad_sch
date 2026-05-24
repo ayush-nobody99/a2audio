@@ -5,6 +5,200 @@
 	(uuid "6bc02254-56bf-4f9a-8c1a-77c700c92092")
 	(paper "A2")
 	(lib_symbols
+		(symbol "2026-05-23_05-33-27:EVQ-PUJ02K"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "EVQ-PUJ02K"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SW_EVQPUJ_4P7X3P5_PAN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "EVQ-PUJ02K"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "EVQ-PUJ02K"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SW_EVQPUJ_4P7X3P5_PAN SW_EVQPUJ_4P7X3P5_PAN-M SW_EVQPUJ_4P7X3P5_PAN-L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "EVQ-PUJ02K_0_1"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.175 0)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 0) (xy 3.81 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CM5108000:CM5108000"
 			(pin_names
 				(offset 1.016)
@@ -6575,173 +6769,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "symbols:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "symbols:SW_Wuerth_450301014042"
 			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "symbols:SW_SPDT"
-			(pin_names
-				(offset 0)
+				(offset 1)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -6759,7 +6789,7 @@
 					)
 				)
 			)
-			(property "Value" "SW_SPDT"
+			(property "Value" "SW_Wuerth_450301014042"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6769,8 +6799,8 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -6780,7 +6810,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/450301014042.pdf"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6791,7 +6821,7 @@
 					)
 				)
 			)
-			(property "Description" "Switch, single pole double throw"
+			(property "Description" "Switch slide, single pole double throw"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6802,7 +6832,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+			(property "ki_keywords" "changeover single-pole opposite-side-connection double-throw spdt ON-ON"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6813,7 +6843,18 @@
 					)
 				)
 			)
-			(symbol "SW_SPDT_0_1"
+			(property "ki_fp_filters" "SW*Wuerth*WS*SLTV*10x2.5x6.4*P2.54mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Wuerth_450301014042_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.4572)
@@ -6860,7 +6901,7 @@
 					)
 				)
 			)
-			(symbol "SW_SPDT_1_1"
+			(symbol "SW_Wuerth_450301014042_1_1"
 				(rectangle
 					(start -3.175 3.81)
 					(end 3.175 -3.81)
@@ -6873,9 +6914,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "A"
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6891,9 +6932,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 -2.54 180)
 					(length 2.54)
-					(name "B"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6909,9 +6950,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 5.08 2.54 180)
 					(length 2.54)
-					(name "C"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6941,6 +6982,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "342c6ded-361e-4574-a695-966490e5f82c")
+	)
+	(junction
+		(at 431.8 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49310862-e67e-4d66-a166-a6cc14c0963a")
 	)
 	(junction
 		(at 463.55 59.69)
@@ -7630,16 +7677,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 199.39) (xy 181.61 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42c12591-a2a8-4d56-8d8d-10fbe71e4153")
-	)
-	(wire
-		(pts
 			(xy 378.46 245.11) (xy 396.24 245.11)
 		)
 		(stroke
@@ -7800,16 +7837,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 196.85) (xy 160.02 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a3bf3ea-0b23-466e-a5a6-61962ae9e4fc")
-	)
-	(wire
-		(pts
 			(xy 49.53 111.76) (xy 71.12 111.76)
 		)
 		(stroke
@@ -7897,16 +7924,6 @@
 			(type default)
 		)
 		(uuid "659e56c7-f170-4068-afaf-e642b2e7d842")
-	)
-	(wire
-		(pts
-			(xy 184.15 196.85) (xy 160.02 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67ff78cc-277d-4872-8a15-a2f5f36710b5")
 	)
 	(wire
 		(pts
@@ -8400,16 +8417,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 199.39) (xy 181.61 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b631c31b-7fcb-4e14-9df7-f7802d771bbe")
-	)
-	(wire
-		(pts
 			(xy 49.53 80.01) (xy 71.12 80.01)
 		)
 		(stroke
@@ -8610,16 +8617,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 179.07) (xy 317.5 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0ad99d0-15c6-4fee-8131-f7a67255bf55")
-	)
-	(wire
-		(pts
 			(xy 43.18 200.66) (xy 64.77 200.66)
 		)
 		(stroke
@@ -8737,16 +8734,6 @@
 			(type default)
 		)
 		(uuid "e08e7be3-e940-4333-87a0-f5ddc12d0ccb")
-	)
-	(wire
-		(pts
-			(xy 181.61 181.61) (xy 317.5 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1c0988e-2f4a-4f48-9e97-d86ef3bb1aa6")
 	)
 	(wire
 		(pts
@@ -9068,6 +9055,16 @@
 		)
 		(uuid "1aba3577-3c5a-4061-8793-9bbf2cd6f116")
 	)
+	(label "CARD_DETECT"
+		(at 378.46 224.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1aba3a44-de2e-47aa-89a5-7b28eefa11a2")
+	)
 	(label "I2S_LRCLK"
 		(at 43.18 195.58 0)
 		(effects
@@ -9087,6 +9084,16 @@
 			(justify left bottom)
 		)
 		(uuid "1d28aef7-663e-40e3-a9b6-159bece0b0b8")
+	)
+	(label "HP_DETECT"
+		(at 195.58 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f83cb61-4814-4700-b954-457f4b63cd05")
 	)
 	(label "+3V3_SYS"
 		(at 422.91 53.34 0)
@@ -9367,6 +9374,16 @@
 			(justify left bottom)
 		)
 		(uuid "3d593fa6-464d-43ee-8443-f851583763cb")
+	)
+	(label "+3V3_SYS"
+		(at 195.58 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3dfec95a-4005-4472-b7d4-de8035519bce")
 	)
 	(label "DP_LANE0_P"
 		(at 558.8 330.2 0)
@@ -10038,6 +10055,16 @@
 		)
 		(uuid "beb14f82-e409-449d-b661-8b105cb10d60")
 	)
+	(label "HP_DETECT"
+		(at 378.46 229.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bffb3f8b-082e-4ee3-becb-959629952bcb")
+	)
 	(label "I2C_SCL"
 		(at 49.53 83.82 0)
 		(effects
@@ -10057,6 +10084,16 @@
 			(justify right bottom)
 		)
 		(uuid "c6b412ed-e9f1-4582-b571-573e27b33ada")
+	)
+	(label "MIC_IN"
+		(at 64.77 212.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c6b62aec-045f-4ce9-8623-567b5e2ad8f4")
 	)
 	(label "MIPI1_D0_P"
 		(at 463.55 259.08 180)
@@ -10237,6 +10274,16 @@
 			(justify left bottom)
 		)
 		(uuid "e41dfced-579d-4117-9125-5239bfdac35c")
+	)
+	(label "CARD_DETECT"
+		(at 307.34 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e451be23-2ee7-4ea4-b6bc-09d55ea62f33")
 	)
 	(label "I2C_SCL"
 		(at 396.24 201.93 0)
@@ -10665,7 +10712,7 @@
 	)
 	(symbol
 		(lib_id "symbols:GND")
-		(at 294.64 223.52 0)
+		(at 299.72 223.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10676,7 +10723,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ad25bf1-4c1b-4833-a2ef-73d3961359ca")
 		(property "Reference" "#PWR073"
-			(at 294.64 229.87 0)
+			(at 299.72 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10687,7 +10734,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 294.64 228.6 0)
+			(at 299.72 228.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10697,7 +10744,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 294.64 223.52 0)
+			(at 299.72 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10708,7 +10755,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 294.64 223.52 0)
+			(at 299.72 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10719,7 +10766,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 294.64 223.52 0)
+			(at 299.72 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10939,7 +10986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 193.802 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -11067,6 +11114,89 @@
 		)
 	)
 	(symbol
+		(lib_id "symbols:SW_Wuerth_450301014042")
+		(at 403.86 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13437f2f-6655-4897-bad1-b0cbcfb3a88c")
+		(property "Reference" "SW4"
+			(at 403.86 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Wuerth_450301014042"
+			(at 403.86 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
+			(at 403.86 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/450301014042.pdf"
+			(at 403.86 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch slide, single pole double throw"
+			(at 403.86 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f3b4ac6b-d82b-4a61-88ae-bc3a580eb156")
+		)
+		(pin "3"
+			(uuid "4be1c243-92a3-4804-b5c4-e632347e5398")
+		)
+		(pin "2"
+			(uuid "329a7138-8dcd-4451-842d-8aa786e34d91")
+		)
+		(instances
+			(project "A2_Audio_Rev1"
+				(path "/6bc02254-56bf-4f9a-8c1a-77c700c92092"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "symbols:Conn_01x02")
 		(at 304.8 166.37 0)
 		(unit 1)
@@ -11180,7 +11310,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SJ2-35954B-SMT-TR:CUI_SJ2-35954B-SMT-TR"
+		(property "Footprint" "custom:CUI_SJ2-35954B-SMT-TR"
 			(at 180.34 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -11444,6 +11574,88 @@
 			(project "A2_Audio_Rev1"
 				(path "/6bc02254-56bf-4f9a-8c1a-77c700c92092"
 					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2026-05-23_05-33-27:EVQ-PUJ02K")
+		(at 292.1 223.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19d70fdb-5e1e-4d76-a357-2f7707cf811a")
+		(property "Reference" "SW8"
+			(at 292.1 217.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "EVQ-PUJ02K"
+			(at 292.1 219.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "custom:SW_EVQPUJ_4P7X3P5_PAN"
+			(at 292.1 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "EVQ-PUJ02K"
+			(at 292.1 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 292.1 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d1599c4-0330-4607-9e52-e41c660fbafb")
+		)
+		(pin "2"
+			(uuid "883b8160-3a61-48dc-8601-fa83ae199cd2")
+		)
+		(instances
+			(project "A2_Audio_Rev1"
+				(path "/6bc02254-56bf-4f9a-8c1a-77c700c92092"
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -11770,8 +11982,8 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:SW_Push")
-		(at 415.29 81.28 0)
+		(lib_id "2026-05-23_05-33-27:EVQ-PUJ02K")
+		(at 417.83 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11780,51 +11992,53 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "30321346-d9c0-4cf6-9a92-c6a4c768330d")
-		(property "Reference" "SW5"
-			(at 415.29 73.66 0)
+		(uuid "30647d74-364a-4a0d-8a95-5af4159ad93c")
+		(property "Reference" "SW9"
+			(at 417.83 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "SW_PREV"
-			(at 415.29 76.2 0)
+		(property "Value" "EVQ-PUJ02K"
+			(at 417.83 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 415.29 76.2 0)
+		(property "Footprint" "custom:SW_EVQPUJ_4P7X3P5_PAN"
+			(at 417.83 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 415.29 76.2 0)
+		(property "Datasheet" "EVQ-PUJ02K"
+			(at 417.83 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 415.29 81.28 0)
+		(property "Description" ""
+			(at 417.83 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11835,15 +12049,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ee326ecd-c1eb-45ea-809c-1ff2b1e225fd")
+			(uuid "8ffd93a3-38a3-4d4e-98b3-e39562a7a989")
 		)
 		(pin "2"
-			(uuid "21a0ed3a-20e8-4e35-9dba-d7920a30254d")
+			(uuid "483e3d5f-5589-4e6a-bb29-daa8cf71c4bf")
 		)
 		(instances
 			(project "A2_Audio_Rev1"
 				(path "/6bc02254-56bf-4f9a-8c1a-77c700c92092"
-					(reference "SW5")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -11883,7 +12097,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 210.312 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -11926,86 +12140,6 @@
 			(project "A2_Audio_Rev1"
 				(path "/6bc02254-56bf-4f9a-8c1a-77c700c92092"
 					(reference "FB2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "symbols:SW_Push")
-		(at 441.96 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d03d25f-e34c-4e82-9a8d-6b0ef8b4bc02")
-		(property "Reference" "SW6"
-			(at 441.96 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_NEXT"
-			(at 441.96 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 441.96 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 441.96 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 441.96 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d161c4e0-3573-417b-b647-0cf1c6fbe1c1")
-		)
-		(pin "2"
-			(uuid "e65fef46-ec62-47be-81ac-1e3e06122c78")
-		)
-		(instances
-			(project "A2_Audio_Rev1"
-				(path "/6bc02254-56bf-4f9a-8c1a-77c700c92092"
-					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -12365,7 +12499,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 207.01 98.298 90)
 			(hide yes)
 			(show_name no)
@@ -12527,7 +12661,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 203.2 95.5548 0)
 			(hide yes)
 			(show_name no)
@@ -12655,7 +12789,7 @@
 	)
 	(symbol
 		(lib_id "symbols:GND")
-		(at 473.71 81.28 0)
+		(at 478.79 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12666,7 +12800,7 @@
 		(fields_autoplaced yes)
 		(uuid "5fa8f610-b134-4d49-9bd7-7def9b361725")
 		(property "Reference" "#PWR0131"
-			(at 473.71 87.63 0)
+			(at 478.79 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12677,7 +12811,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 473.71 86.36 0)
+			(at 478.79 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12687,7 +12821,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 473.71 81.28 0)
+			(at 478.79 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12698,7 +12832,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 473.71 81.28 0)
+			(at 478.79 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12709,7 +12843,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 473.71 81.28 0)
+			(at 478.79 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13131,6 +13265,88 @@
 		)
 	)
 	(symbol
+		(lib_id "2026-05-23_05-33-27:EVQ-PUJ02K")
+		(at 439.42 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88d47312-48c8-4f90-9bb3-764c60b98372")
+		(property "Reference" "SW10"
+			(at 439.42 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "EVQ-PUJ02K"
+			(at 439.42 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "custom:SW_EVQPUJ_4P7X3P5_PAN"
+			(at 439.42 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "EVQ-PUJ02K"
+			(at 439.42 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 439.42 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8f8447a-dc29-4734-bc4c-a37f26b4cd1c")
+		)
+		(pin "2"
+			(uuid "2a34ae33-0fab-4474-8f55-214340c405b1")
+		)
+		(instances
+			(project "A2_Audio_Rev1"
+				(path "/6bc02254-56bf-4f9a-8c1a-77c700c92092"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "symbols:C")
 		(at 226.06 114.3 0)
 		(unit 1)
@@ -13164,7 +13380,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 227.0252 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -13207,6 +13423,88 @@
 			(project "A2_Audio_Rev1"
 				(path "/6bc02254-56bf-4f9a-8c1a-77c700c92092"
 					(reference "C104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:R")
+		(at 195.58 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f67f8e9-e98a-4a64-922f-198b37a6b8c0")
+		(property "Reference" "R54"
+			(at 198.12 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 198.12 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 193.802 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 195.58 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "45c942af-b547-40aa-b5fb-9eb5c450f350")
+		)
+		(pin "2"
+			(uuid "473b74c8-1ba7-4209-8d4a-8a694b50aefd")
+		)
+		(instances
+			(project "A2_Audio_Rev1"
+				(path "/6bc02254-56bf-4f9a-8c1a-77c700c92092"
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -15104,7 +15402,7 @@
 	)
 	(symbol
 		(lib_id "symbols:GND")
-		(at 420.37 81.28 0)
+		(at 425.45 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15115,7 +15413,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb221d8a-a287-4c17-9417-31142f6b7398")
 		(property "Reference" "#PWR0133"
-			(at 420.37 87.63 0)
+			(at 425.45 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15126,7 +15424,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 420.37 86.36 0)
+			(at 425.45 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15136,7 +15434,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 420.37 81.28 0)
+			(at 425.45 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15147,7 +15445,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 420.37 81.28 0)
+			(at 425.45 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15158,7 +15456,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 420.37 81.28 0)
+			(at 425.45 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15181,8 +15479,8 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:SW_SPDT")
-		(at 403.86 44.45 0)
+		(lib_id "2026-05-23_05-33-27:EVQ-PUJ02K")
+		(at 471.17 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15191,29 +15489,53 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c07d7722-c6c5-4585-afc8-1f55a3009bac")
-		(property "Reference" "SW2"
-			(at 403.86 35.56 0)
+		(uuid "bfa647ba-c634-4e20-8413-6c35b4bf5265")
+		(property "Reference" "SW11"
+			(at 471.17 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "EVQ-PUJ02K"
+			(at 471.17 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "custom:SW_EVQPUJ_4P7X3P5_PAN"
+			(at 471.17 81.28 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Value" "WIFI_SLIDER"
-			(at 403.86 38.1 0)
+		(property "Datasheet" "EVQ-PUJ02K"
+			(at 471.17 81.28 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 403.86 44.45 0)
+		(property "Description" ""
+			(at 471.17 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15222,42 +15544,100 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Datasheet" ""
-			(at 403.86 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 403.86 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "81b31e7c-06a9-441e-9067-74ee926581d6")
 		)
 		(pin "1"
-			(uuid "09180b4e-edf1-4e0e-a376-ecc3e8926a10")
+			(uuid "e4857e02-b897-4ce7-bd89-79fbfc7ff2fe")
 		)
 		(pin "2"
-			(uuid "db074877-fc25-47d8-967d-0f42a095f6a9")
+			(uuid "a13491b7-d590-48c0-bcbb-20a96e050cfd")
 		)
 		(instances
 			(project "A2_Audio_Rev1"
 				(path "/6bc02254-56bf-4f9a-8c1a-77c700c92092"
-					(reference "SW2")
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:SW_Wuerth_450301014042")
+		(at 375.92 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3c14832-2dd3-4e62-91b0-d96b9985e0a0")
+		(property "Reference" "SW1"
+			(at 375.92 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Wuerth_450301014042"
+			(at 375.92 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
+			(at 375.92 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/450301014042.pdf"
+			(at 375.92 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch slide, single pole double throw"
+			(at 375.92 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b1448b9a-3362-4568-b420-851333b83d40")
+		)
+		(pin "3"
+			(uuid "fe3e1cdf-ed17-4664-b685-9d2d6bec2595")
+		)
+		(pin "2"
+			(uuid "32f702ba-b2c2-49c9-a6ac-d87d57353fb7")
+		)
+		(instances
+			(project "A2_Audio_Rev1"
+				(path "/6bc02254-56bf-4f9a-8c1a-77c700c92092"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -15662,86 +16042,6 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:SW_Push")
-		(at 468.63 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec34af20-68c1-478a-9e83-fa39220bfebc")
-		(property "Reference" "SW7"
-			(at 468.63 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_PLAY"
-			(at 468.63 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 468.63 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 468.63 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 468.63 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "712e7fd7-ae2c-45a4-bd88-55ae7338d1ab")
-		)
-		(pin "2"
-			(uuid "b5e42577-ffde-43ed-b62a-e43791e5086e")
-		)
-		(instances
-			(project "A2_Audio_Rev1"
-				(path "/6bc02254-56bf-4f9a-8c1a-77c700c92092"
-					(reference "SW7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "symbols:GND")
 		(at 303.53 265.43 0)
 		(unit 1)
@@ -15814,89 +16114,6 @@
 			(project "A2_Audio_Rev1"
 				(path "/6bc02254-56bf-4f9a-8c1a-77c700c92092"
 					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "symbols:SW_SPDT")
-		(at 375.92 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7a86e3f-21b1-48fd-af66-90fbd823ecce")
-		(property "Reference" "SW4"
-			(at 375.92 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BT_SLIDER"
-			(at 375.92 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 375.92 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 375.92 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 375.92 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "b82bb8a5-ff64-41d1-ae2f-c952f4814dc4")
-		)
-		(pin "1"
-			(uuid "2cbbc0b4-fe41-4dfe-a6d3-4af57b1ea30c")
-		)
-		(pin "2"
-			(uuid "a170fe00-f6a4-4aa9-bf13-4298946b86b4")
-		)
-		(instances
-			(project "A2_Audio_Rev1"
-				(path "/6bc02254-56bf-4f9a-8c1a-77c700c92092"
-					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -17020,86 +17237,6 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "symbols:SW_Push")
-		(at 289.56 223.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff8011ab-5f47-4ab9-8610-e25a1b1cee9c")
-		(property "Reference" "SW1"
-			(at 289.56 215.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 289.56 218.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 289.56 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 289.56 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 289.56 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f621356e-7657-4f22-b51a-d0f9325316b0")
-		)
-		(pin "1"
-			(uuid "02db7dc5-0e2e-43e9-9073-ec4f021ef900")
-		)
-		(instances
-			(project "A2_Audio_Rev1"
-				(path "/6bc02254-56bf-4f9a-8c1a-77c700c92092"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(sheet
 		(at 457.2 307.34)
 		(size 101.6 52.07)
@@ -17665,6 +17802,16 @@
 				(justify left)
 			)
 		)
+		(pin "CARD_DETECT" output
+			(at 307.34 67.31 0)
+			(uuid "649afaec-43af-4918-ad12-f50cc8306c1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "A2_Audio_Rev1"
 				(path "/6bc02254-56bf-4f9a-8c1a-77c700c92092"
@@ -17970,26 +18117,6 @@
 		(pin "HP_GOOD_OUT" output
 			(at 184.15 193.04 180)
 			(uuid "a68fc651-e3f1-4f19-8651-fb9ca9c38dde")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CC2" bidirectional
-			(at 184.15 196.85 180)
-			(uuid "f59e3269-f73e-4c30-bbce-dea1f15bdc56")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CC1" bidirectional
-			(at 184.15 199.39 180)
-			(uuid "87306975-498f-47d3-9e1f-4248ea7f64ce")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18326,6 +18453,16 @@
 		(pin "FM_ANT" output
 			(at 64.77 209.55 180)
 			(uuid "edcde962-a984-4f78-b3a6-42dc7344efc8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MIC_IN" input
+			(at 64.77 212.09 180)
+			(uuid "84cb0c00-9f3d-4aee-925f-4632336a69e3")
 			(effects
 				(font
 					(size 1.27 1.27)
