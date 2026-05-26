@@ -1,0 +1,9 @@
+Manufacturer=ESS Technology
+PartNumber=ES9822QPRO
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=41
+Version=1.1
+Released=2024-08-26 04:12:47
+Downloaded=2026-05-04 04:41:38
+3D=Y

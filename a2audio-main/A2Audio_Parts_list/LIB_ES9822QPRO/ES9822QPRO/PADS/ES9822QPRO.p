@@ -1,0 +1,58 @@
+*PADS-LIBRARY-PART-TYPES-V9*
+
+ES9822QPRO QFN40P500X500X80-41N-D I ANA 7 1 0 0 0
+TIMESTAMP 2026.05.04.04.41.38
+"Mouser Part Number" 460-ES9822QPRO
+"Mouser Price/Stock" https://www.mouser.co.uk/ProductDetail/ESS-Technology/ES9822QPRO?qs=A6eO%252BMLsxmRg8Ilt0hzh%2Fg%3D%3D
+"Manufacturer_Name" ESS Technology
+"Manufacturer_Part_Number" ES9822QPRO
+"Description" Analog to Digital Converters - ADC Sabre stereo reference PRO ADC5 mm x 5mm, 40 pin QFN
+"Datasheet Link" https://www.esstech.com/wp-content/uploads/2022/09/ES9822PRO_DS_v0.3.pdf
+"Geometry.Height" 0.8mm
+GATE 1 41 0
+ES9822QPRO
+1 0 U GPIO10
+2 0 U GPIO11
+3 0 U MODE
+4 0 U ACLK
+5 0 U AVCC
+6 0 U AGND
+7 0 U XOUT
+8 0 U XIN
+9 0 U VREF_L
+10 0 U AVCC_L
+11 0 U AGND_L
+12 0 U IN_P1
+13 0 U IN_M1
+14 0 U NC_1
+15 0 U NC_2
+16 0 U NC_3
+17 0 U NC_4
+18 0 U IN_M2
+19 0 U IN_P2
+20 0 U AGND_R
+30 0 U AVDD
+29 0 U DVDD
+28 0 U MISO/ADDR2
+27 0 U SS/ADDR1
+26 0 U SCLK/SCL
+25 0 U MOSI/SDA
+24 0 U GPIO9
+23 0 U CHIP_EN
+22 0 U VREF_R
+21 0 U AVCC_R
+41 0 U DGND_3
+40 0 U DGND_2
+39 0 U GPIO1
+38 0 U GPIO2
+37 0 U GPIO3
+36 0 U GPIO4
+35 0 U GPIO5
+34 0 U GPIO6
+33 0 U GPIO7
+32 0 U GPIO8
+31 0 U DGND_1
+
+*END*
+*REMARK* SamacSys ECAD Model
+16633564/2048347/2.50/41/3/Integrated Circuit

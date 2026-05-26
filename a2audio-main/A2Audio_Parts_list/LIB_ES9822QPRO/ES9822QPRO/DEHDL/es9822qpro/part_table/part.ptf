@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ES9822QPRO'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ESS Technology", "ES9822QPRO" (!) = "", "QFN40P500X500X80-41N-D", "Quad Flat No-Lead", "460-ES9822QPRO", "https://www.mouser.co.uk/ProductDetail/ESS-Technology/ES9822QPRO?qs=A6eO%252BMLsxmRg8Ilt0hzh%2Fg%3D%3D", "Analog to Digital Converters - ADC Sabre stereo reference PRO ADC5 mm x 5mm, 40 pin QFN", "https://www.esstech.com/wp-content/uploads/2022/09/ES9822PRO_DS_v0.3.pdf", "0.8 mm"
+END_PART
+
+END.
