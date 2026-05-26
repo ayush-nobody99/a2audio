@@ -1,0 +1,273 @@
+.title KiCad schematic
+.save all
+.probe alli
+.probe p(VBT1)
+.probe p(C82)
+.probe p(C16)
+.probe p(L2)
+.probe p(R30)
+.probe p(C83)
+.probe p(R29)
+.probe p(C49)
+.probe p(R14)
+.probe p(R15)
+.probe p(C54)
+.probe p(R22)
+.probe p(C43)
+.probe p(C44)
+.probe p(C45)
+.probe p(C42)
+.probe p(C22)
+.probe p(C50)
+.probe p(R5)
+.probe p(R6)
+.probe p(C20)
+.probe p(R10)
+.probe p(C21)
+.probe p(R4)
+.probe p(R7)
+.probe p(C51)
+.probe p(L3)
+.probe p(C48)
+.probe p(C47)
+.probe p(C2)
+.probe p(C3)
+.probe p(C6)
+.probe p(C5)
+.probe p(C1)
+.probe p(L1)
+.probe p(C4)
+.probe p(R20)
+.probe p(R19)
+.probe p(R24)
+.probe p(R9)
+.probe p(R11)
+.probe p(R12)
+.probe p(R13)
+.probe p(C57)
+.probe p(C55)
+.probe p(R28)
+.probe p(R27)
+.probe p(L4)
+.probe p(C56)
+.probe p(R21)
+.probe p(R3)
+.probe p(R23)
+.probe p(C19)
+.probe p(R18)
+.probe p(C65)
+.probe p(C64)
+.probe p(C66)
+.probe p(C70)
+.probe p(C67)
+.probe p(C69)
+.probe p(C71)
+.probe p(C68)
+.probe p(R2)
+.probe p(R25)
+.probe p(R1)
+.probe p(C38)
+.probe p(C53)
+.probe p(C52)
+.probe p(R16)
+.probe p(R17)
+.probe p(C9)
+.probe p(C15)
+.probe p(C12)
+.probe p(C8)
+.probe p(C7)
+.probe p(C13)
+.probe p(C10)
+.probe p(C11)
+.probe p(C14)
+.probe p(C30)
+.probe p(C26)
+.probe p(C27)
+.probe p(C46)
+.probe p(C28)
+.probe p(C25)
+.probe p(C24)
+.probe p(C29)
+.probe p(C37)
+.probe p(C31)
+.probe p(C33)
+.probe p(C35)
+.probe p(C32)
+.probe p(C40)
+.probe p(C39)
+.probe p(C41)
+.probe p(C34)
+.probe p(C17)
+.probe p(C36)
+.probe p(C23)
+.probe p(R8)
+.probe p(C18)
+.probe p(C61)
+.probe p(C58)
+.probe p(C59)
+.probe p(C60)
+.probe p(C73)
+.probe p(C74)
+.probe p(C72)
+.probe p(C76)
+.probe p(C75)
+.probe p(C77)
+.probe p(C79)
+.probe p(C78)
+.probe p(C62)
+.probe p(R26)
+.probe p(C81)
+.probe p(C80)
+.probe p(C63)
+U15 __U15
+VBT1 Net-_BT1-+_ GND DC CR1220 
+J3 __J3
+C82 Net-_U23-PDT_ GND 0.33u
+C16 Net-_C16-Pad1_ /FM_ANT 33p
+L2 Net-_C16-Pad1_ GND 100n
+J2 __J2
+D2 __D2
+U23 __U23
+R30 /+3V3_SYS /BTN_KILL 100k
+C83 Net-_U23-ONT_ GND 0.1u
+SW1 __SW1
+R29 /+3V3_SYS /BTN_INT 10k
+C49 Net-_U19-SS/TR_ GND 3.3n
+R14 Net-_U19-FB_ /+3V3_SYS 100k
+R15 Net-_U19-FB_ GND 32.4k
+C54 GND Net-_U21-SS_ 10n
+U21 __U21
+R22 /CHG_INT /+3V3_SYS 10k
+C43 Net-_J1-TX1+_ /Power&Battery/TYPEC_TX1_P 0.1u
+C44 Net-_J1-TX2-_ /Power&Battery/TYPEC_TX2_N 0.1u
+C45 Net-_J1-TX2+_ /Power&Battery/TYPEC_TX2_P 0.1u
+C42 Net-_J1-TX1-_ /Power&Battery/TYPEC_TX1_N 0.1u
+U1 __U1
+C22 Net-_U13-C+_ Net-_U13-C-_ 4.7u
+C50 SYS GND 100n
+R5 Net-_U13-FB-_ GND 10k
+R6 /+5V_AMP Net-_U13-FB-_ 30.9k
+C20 GND Net-_U13-CP_ 4.7u
+R10 Net-_U13-PGOOD_ /Power&Battery/HP_GOOD_OUT 10k
+C21 GND SYS 4.7u
+R4 Net-_U13-FB+_ GND 10k
+R7 /-5V_AMP Net-_U13-FB+_ 31.6k
+U13 __U13
+C51 /+3V3_SYS GND 100n
+U19 __U19
+L3 Net-_L3-Pad1_ /+3V3_SYS 2.2u
+C48 /+3V3_SYS GND 22u
+C47 SYS GND 22u
+C2 Net-_U2-PP_CABLE_ GND 22u
+C3 SYS GND 22u
+C6 /Power&Battery/BTST_CAP SW 47n
+C5 /Power&Battery/REGN GND 4.7u
+C1 GND /Power&Battery/VBUS_PD 1u
+L1 SW SYS 1u
+C4 GND BAT 10u
+R20 Net-_U2-ADCIN2_ Net-_U14-VCC_ 100k
+R19 Net-_U14-VCC_ GND 100k
+D1 Net-_D1-K_ Net-_D1-A_ LED
+U4 __U4
+R24 GND Net-_U4-ILIM_ 130
+R9 Net-_D1-A_ SYS R
+U14 __U14
+U3 __U3
+TH1 __TH1
+R11 /Power&Battery/REGN Net-_U4-TS_ 4.42k
+R12 Net-_U4-TS_ GND 23.7k
+R13 Net-_U3-CAD_SNK_DCI_DAT_ GND 10k
+J1 __J1
+C57 +5V_INPUT_ GND 22u
+C55 +5V_INPUT_ GND 22u
+R28 +5V_INPUT_ Net-_U21-FB_ 316k
+R27 Net-_U21-FB_ GND 100k
+L4 Net-_L4-Pad1_ SYS 1u
+C56 +5V_INPUT_ GND 0.1u
+R21 /BAT_ALRT /+3V3_SYS 10k
+R3 /Power&Battery/BATTERY_NEG GND 10m
+R23 Net-_U5-THRM_ GND 10k
+U5 __U5
+C19 Net-_U5-REG_ GND 0.47u
+U2 __U2
+R18 Net-_U14-VCC_ Net-_U2-ADCIN1_ 100k
+C65 /DP_LANE0_N Net-_U3-DP0N_ 100n
+C64 /DP_LANE0_P Net-_U3-DP0P_ 100n
+C66 /DP_LANE1_P Net-_U3-DP1P_ 100n
+C70 /DP_LANE3_P Net-_U3-DP3P_ 100n
+C67 /DP_LANE1_N Net-_U3-DP1N_ 100n
+C69 /DP_LANE2_P Net-_U3-DP2N_ 100n
+C71 /DP_LANE3_N Net-_U3-DP3N_ 100n
+C68 /DP_LANE2_N Net-_U3-DP2P_ 100n
+R2 Net-_U14-VCC_ /I2C_SCL 4.7k
+R25 /PD_IRQ /+3V3_SYS 10k
+R1 Net-_U14-VCC_ /I2C_SDA 4.7k
+C38 GND Net-_U14-VCC_ 0.1u
+C53 Net-_U2-LDO_1V8_ GND 2.2u
+C52 GND Net-_U2-HRESET_ 100n
+R16 /+3V3_SYS Net-_U2-HRESET_ 100k
+R17 Net-_U2-ADCIN1_ GND 100k
+C9 /Audio_Engine/3V3_ANA GND 1u
+C15 Net-_U7-FILT+_ GND 10u
+C12 Net-_U7--VA_ GND 2.2u
+U8 __U8
+U9 __U9
+C8 /Audio_Engine/1V8_DIG GND 1u
+C7 SYS GND 1u
+U6 __U6
+U7 __U7
+C13 Net-_U7-FLYN_VA_ Net-_U7-FLYP_VA_ 2.2u
+U10 __U10
+C10 Net-_U6-FLYN_VA_ Net-_U6-FLYP_VA_ 2.2u
+C11 Net-_U6--VA_ GND 2.2u
+C14 Net-_U6-FILT+_ GND 10u
+C30 GND Net-_IC1-AVCC_ 0.1u
+C26 Net-_IC1-DVDD_ GND 0.1u
+C27 GND Net-_IC1-DVDD_ 10u
+Y1 __Y1
+C46 Net-_IC1-DVDD_ GND 1u
+C28 GND Net-_IC1-AVCC_ 0.1u
+IC1 __IC1
+C25 Net-_U11-ROUT/DOUT_ Net-_U12-+IN_B_ 2.2u
+U11 __U11
+C24 Net-_U12-+IN_A_ Net-_U11-LOUT/DFS_ 2.2u
+C29 GND Net-_IC1-AVCC_ 0.1u
+C37 GND Net-_IC1-IN_M2_ 2.2u
+C31 GND Net-_IC1-AVCC_ 0.1u
+C33 GND Net-_IC1-VREF_R_ 10u
+C35 GND Net-_IC1-IN_M1_ 2.2u
+C32 GND Net-_IC1-VREF_L_ 10u
+U16 __U16
+U17 __U17
+C40 /+5V_AMP GND 1u
+C39 /+5V_AMP GND 1u
+C41 Net-_IC1-AVCC_ GND 1u
+C34 Net-_U12--IN_A_ Net-_IC1-IN_P1_ 2.2u
+C17 /-5V_AMP GND 0.1u
+C36 Net-_U12--IN_B_ Net-_IC1-IN_P2_ 2.2u
+U12 __U12
+C23 Net-_IC1-AVCC_ GND 0.1u
+R8 Net-_U11-*RST_ Net-_IC1-AVCC_ 10k
+C18 GND /+5V_AMP 0.1u
+U20 __U20
+C61 GND /Video_Engine/+1V8_VID 1u
+C58 /+3V3_SYS GND 1u
+C59 GND /+3V3_SYS 1u
+C60 GND /Video_Engine/+1V2_VID 1u
+U22 __U22
+U18 __U18
+C73 Net-_U18-D0N/B10_RX1N_ /DP_LANE0_N 100n
+C74 Net-_U18-D1P/A11_RX2P_ /DP_LANE1_P 100n
+C72 Net-_U18-D0P/B11_RX1P_ /DP_LANE0_P 100n
+C76 Net-_U18-D2P/A3_TX1N_ /DP_LANE2_P 100n
+C75 Net-_U18-D1N/A10_RX2N_ /DP_LANE1_N 100n
+C77 Net-_U18-D2N/A2_TX1P_ /DP_LANE2_N 100n
+C79 Net-_U18-D3N/B2_TX2P_ /DP_LANE3_N 100n
+C78 Net-_U18-D3P/B3_TX2N_ /DP_LANE3_P 100n
+C62 Net-_U18-XTALI_ GND 22p
+Y2 __Y2
+R26 GND Net-_U18-REXT_ 2k
+C81 /DP_AUX_N Net-_U18-AUXP_ 100n
+C80 /DP_AUX_P Net-_U18-AUXN_ 100n
+C63 Net-_U18-XTALO_ GND 22p
+.end

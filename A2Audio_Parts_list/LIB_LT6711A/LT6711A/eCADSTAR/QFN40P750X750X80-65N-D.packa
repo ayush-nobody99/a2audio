@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "LT6711A"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-08-08-13:23:48)
+    (mountForm default
+        (footprintRef "QFN40P750X750X80-65N-D")
+        (spec "System")
+    )
+)
