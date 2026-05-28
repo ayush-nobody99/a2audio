@@ -7289,6 +7289,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 218.44) (xy 64.77 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eca4b20-5cb7-478f-ae4d-4c92a655714b")
+	)
+	(wire
+		(pts
 			(xy 434.34 326.39) (xy 434.34 297.18)
 		)
 		(stroke
@@ -8609,6 +8619,16 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 224.79) (xy 396.24 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "867981e8-3b02-4c8c-b7e5-8cb70e59dda4")
+	)
+	(wire
+		(pts
 			(xy 162.56 265.43) (xy 162.56 382.27)
 		)
 		(stroke
@@ -8656,6 +8676,16 @@
 			(type default)
 		)
 		(uuid "8bef6095-218f-40c9-a33d-d860cf6dbf65")
+	)
+	(wire
+		(pts
+			(xy 43.18 220.98) (xy 64.77 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf3a554-b12b-4650-acea-7176b71be7fc")
 	)
 	(wire
 		(pts
@@ -8986,6 +9016,16 @@
 			(type default)
 		)
 		(uuid "ac2311f2-fffe-445b-be9e-066582d08a96")
+	)
+	(wire
+		(pts
+			(xy 378.46 227.33) (xy 396.24 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad0444f9-a3f8-4c8b-8894-61dc822f05de")
 	)
 	(wire
 		(pts
@@ -9828,7 +9868,7 @@
 		(uuid "1aba3577-3c5a-4061-8793-9bbf2cd6f116")
 	)
 	(label "CARD_DETECT"
-		(at 378.46 224.79 0)
+		(at 378.46 212.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9937,7 +9977,7 @@
 		)
 		(uuid "27ae09bd-8978-45a2-a626-3699564e93db")
 	)
-	(label "I2C_SDA"
+	(label "I2C_SDA_AUDIO"
 		(at 49.53 80.01 0)
 		(effects
 			(font
@@ -10056,6 +10096,16 @@
 			(justify right bottom)
 		)
 		(uuid "390ec9d5-7ba9-4741-ae12-e3efecce02eb")
+	)
+	(label "I2C_SCL_AUDIO"
+		(at 43.18 218.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39643502-1a37-4e68-929a-37aba9be6aa7")
 	)
 	(label "+5V"
 		(at 232.41 227.33 0)
@@ -10326,6 +10376,16 @@
 			(justify right bottom)
 		)
 		(uuid "5fb12fea-5493-4ddc-b110-9c933a4f8fe6")
+	)
+	(label "I2C_SDA_AUDIO"
+		(at 396.24 224.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64763c8e-0e9c-46ce-acdb-666796a7e3c5")
 	)
 	(label "SCL"
 		(at 307.34 102.87 0)
@@ -10667,6 +10727,16 @@
 		)
 		(uuid "beb14f82-e409-449d-b661-8b105cb10d60")
 	)
+	(label "I2C_SCL_AUDIO"
+		(at 396.24 227.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf63a884-e493-448e-83ff-9e679ece4b28")
+	)
 	(label "HP_DETECT"
 		(at 378.46 229.87 0)
 		(effects
@@ -10677,7 +10747,7 @@
 		)
 		(uuid "bffb3f8b-082e-4ee3-becb-959629952bcb")
 	)
-	(label "I2C_SCL"
+	(label "I2C_SCL_AUDIO"
 		(at 49.53 83.82 0)
 		(effects
 			(font
@@ -10756,6 +10826,16 @@
 			(justify right bottom)
 		)
 		(uuid "d2405a3c-7516-468f-b048-d635d651363e")
+	)
+	(label "I2C_SDA_AUDIO"
+		(at 43.18 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2999eb7-57a2-4429-a67e-06426f054449")
 	)
 	(label "SD_DAT2"
 		(at 275.59 88.9 180)
@@ -18875,6 +18955,26 @@
 		(pin "MIC_IN" input
 			(at 64.77 212.09 180)
 			(uuid "84cb0c00-9f3d-4aee-925f-4632336a69e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SCL_AUDIO" bidirectional
+			(at 64.77 218.44 180)
+			(uuid "217fdbd5-9f33-4c4f-b29c-4f662e01dd54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SDA_AUDIO" bidirectional
+			(at 64.77 220.98 180)
+			(uuid "0a3410f0-71bc-4973-b594-49d8e59b20a2")
 			(effects
 				(font
 					(size 1.27 1.27)

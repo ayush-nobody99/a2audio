@@ -19069,7 +19069,7 @@
 				)
 			)
 		)
-		(property "Value" "806kΩ"
+		(property "Value" "10kΩ"
 			(at 524.51 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23515,7 +23515,7 @@
 				)
 			)
 		)
-		(property "Value" "130Ω"
+		(property "Value" "180Ω"
 			(at 49.53 289.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25101,7 +25101,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b52bab98-2466-49ae-98ea-9b839a867783")
 		(property "Reference" "R55"
 			(at 524.51 58.42 90)
@@ -25113,7 +25112,7 @@
 				)
 			)
 		)
-		(property "Value" "205kΩ"
+		(property "Value" "31.6kΩ"
 			(at 524.51 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
