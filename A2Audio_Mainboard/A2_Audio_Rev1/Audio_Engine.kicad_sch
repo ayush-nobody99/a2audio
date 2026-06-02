@@ -2517,7 +2517,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 54.61) (xy 251.46 54.61)
+			(xy 280.67 54.61) (xy 264.16 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2697,16 +2697,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 54.61) (xy 113.03 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28fd96e9-96e6-4bea-8ebb-cc2be00aa4a1")
-	)
-	(wire
-		(pts
 			(xy 270.51 25.4) (xy 270.51 62.23)
 		)
 		(stroke
@@ -2807,7 +2797,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 54.61) (xy 113.03 54.61)
+			(xy 107.95 54.61) (xy 109.22 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3244,16 +3234,6 @@
 			(type default)
 		)
 		(uuid "62d6bce4-8455-4457-95d6-af9b8554d919")
-	)
-	(wire
-		(pts
-			(xy 113.03 20.32) (xy 280.67 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63a3da72-4736-4976-aa2c-4c67d8a8ccd8")
 	)
 	(wire
 		(pts
@@ -3877,6 +3857,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 20.32) (xy 280.67 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b46188c4-120c-4282-ac40-46b545a4306b")
+	)
+	(wire
+		(pts
 			(xy 40.64 30.48) (xy 40.64 67.31)
 		)
 		(stroke
@@ -4127,6 +4117,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 54.61) (xy 116.84 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d28a7a11-673d-44a6-8742-e0794ad5bc58")
+	)
+	(wire
+		(pts
 			(xy 245.11 190.5) (xy 271.78 190.5)
 		)
 		(stroke
@@ -4254,6 +4254,16 @@
 			(type default)
 		)
 		(uuid "e133fa60-22e9-4a0f-b875-8c0a5b0aef64")
+	)
+	(wire
+		(pts
+			(xy 256.54 54.61) (xy 251.46 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2a159e1-745a-436c-ab3c-3967e574f3a3")
 	)
 	(wire
 		(pts
@@ -4702,7 +4712,7 @@
 	)
 	(hierarchical_label "I2S_MCLK"
 		(shape input)
-		(at 280.67 27.94 0)
+		(at 280.67 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6947,6 +6957,86 @@
 		)
 	)
 	(symbol
+		(lib_id "symbols:R")
+		(at 260.35 54.61 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85bd5b9d-40fc-4911-8f26-6a912760a4b9")
+		(property "Reference" "R32"
+			(at 260.35 48.26 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22Ω"
+			(at 260.35 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 260.35 56.388 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 260.35 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6fdacaf-bb8f-489c-b2d4-3c9c335d71e6")
+		)
+		(pin "2"
+			(uuid "bcc0fe5f-3c96-4799-ac9b-21151d612a9f")
+		)
+		(instances
+			(project "A2_Audio_Rev1"
+				(path "/6bc02254-56bf-4f9a-8c1a-77c700c92092/966fe543-f3f2-44f2-9a96-3d2890d0362e"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "symbols:C")
 		(at 113.03 99.06 0)
 		(unit 1)
@@ -7702,6 +7792,86 @@
 			(project "A2_Audio_Rev1"
 				(path "/6bc02254-56bf-4f9a-8c1a-77c700c92092/966fe543-f3f2-44f2-9a96-3d2890d0362e"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:R")
+		(at 113.03 54.61 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b13dabb8-0581-44aa-9f62-b12c6b23522d")
+		(property "Reference" "R57"
+			(at 113.03 48.26 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22Ω"
+			(at 113.03 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 113.03 56.388 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 113.03 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "59d4f27a-5c47-4293-b4d2-4851d91b963a")
+		)
+		(pin "2"
+			(uuid "52dea71c-e410-4a76-b658-df7da1d983c4")
+		)
+		(instances
+			(project "A2_Audio_Rev1"
+				(path "/6bc02254-56bf-4f9a-8c1a-77c700c92092/966fe543-f3f2-44f2-9a96-3d2890d0362e"
+					(reference "R57")
 					(unit 1)
 				)
 			)

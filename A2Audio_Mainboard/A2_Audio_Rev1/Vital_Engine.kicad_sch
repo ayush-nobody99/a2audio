@@ -2523,7 +2523,17 @@
 		)
 		(uuid "8ec5d647-abfd-4cec-979b-69774a2a31eb")
 	)
-	(label "+5V_DSI"
+	(label "+3V3_SYS"
+		(at 176.53 210.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "95d26881-c95f-46e1-a661-809b6461f363")
+	)
+	(label "+3V3_SYS"
 		(at 176.53 213.36 180)
 		(effects
 			(font
@@ -2786,17 +2796,6 @@
 			(justify right)
 		)
 		(uuid "ab1311f8-db4c-4475-b79a-79c8ae2c45e0")
-	)
-	(hierarchical_label "+5V_DSI"
-		(shape input)
-		(at 176.53 210.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ae7d8d3b-26bb-431c-a473-9c5dcccdb34b")
 	)
 	(hierarchical_label "I2C_SDA"
 		(shape bidirectional)

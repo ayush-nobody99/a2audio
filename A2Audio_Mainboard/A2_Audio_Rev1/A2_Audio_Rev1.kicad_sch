@@ -10217,16 +10217,6 @@
 		)
 		(uuid "42b3cd51-5ac4-47ea-a02b-9102646bc88f")
 	)
-	(label "+5V"
-		(at 307.34 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "44c36c70-430e-4ebb-bbc4-bacd8482f35f")
-	)
 	(label "ENC_1"
 		(at 505.46 66.04 180)
 		(effects
@@ -18257,16 +18247,6 @@
 		(pin "I2C_SCL" bidirectional
 			(at 307.34 102.87 0)
 			(uuid "c1d0c75e-2df3-42f6-b050-8c42e1d3c2de")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "+5V_DSI" input
-			(at 307.34 106.68 0)
-			(uuid "c72fe5c9-1a9c-4903-9cf3-2c0661443e0c")
 			(effects
 				(font
 					(size 1.27 1.27)

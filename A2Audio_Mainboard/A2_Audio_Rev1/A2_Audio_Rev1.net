@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "C:\\Users\\Anjani Verma\\Documents\\ayush\\A2Audio_Mainboard\\A2_Audio_Rev1\\A2_Audio_Rev1.kicad_sch")
-		(date "2026-05-28T16:25:42")
+		(date "2026-06-01T18:34:03")
 		(tool "Eeschema 10.0.0")
 		(sheet
 			(number "1")
