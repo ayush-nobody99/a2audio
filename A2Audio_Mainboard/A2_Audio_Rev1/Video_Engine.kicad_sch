@@ -3668,7 +3668,7 @@
 	)
 	(hierarchical_label "DP_AUX_N"
 		(shape output)
-		(at 64.77 105.41 180)
+		(at 64.77 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3690,7 +3690,7 @@
 	)
 	(hierarchical_label "DP_AUX_P"
 		(shape output)
-		(at 64.77 100.33 180)
+		(at 64.77 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
